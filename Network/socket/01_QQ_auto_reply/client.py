@@ -23,6 +23,8 @@ while True:
 # 4. 模拟 QQ 自动回复
 while True:
     msg = input(">>").strip()
+    if len(msg) == 0:
+        continue
     client.send(msg.encode())
     print("sent", msg)
     data = client.recv(1024)
