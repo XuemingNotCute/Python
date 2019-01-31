@@ -1,4 +1,4 @@
-# 这个 ssh 主要是通过客户端执行命令。先启动服务端，后启动客户端，输入命令。
+# 这个 ssh 主要是通过客户端执行命令。先启动服务端，后启动客户端，输入命令。客户端可以运行在 windows 或 linux 上。
 import socket
 
 client = socket.socket()
